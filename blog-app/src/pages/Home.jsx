@@ -53,7 +53,7 @@ const HomePage = () => {
 
   return (
     <div style={{ width: "100%" }}>
-      <Typography variant="h4" align="center">
+      <Typography variant="h4" align="center" sx={{margin:"15px 0px"}}>
         Some Blogs by Experts
       </Typography>
       <Grid container spacing={2} sx={{ padding: "0 70px", paddingBottom: "25px" }}>
