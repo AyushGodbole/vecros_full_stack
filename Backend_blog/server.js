@@ -20,7 +20,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Allow requests from this origin
+  origin: "https://vecros-full-stack.vercel.app", // Allow requests from this origin
   credentials: true, // Allow sending cookies with the request
 };
 
